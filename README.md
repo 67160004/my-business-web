@@ -1,7 +1,35 @@
-# BrightWeb Studio
+# Create a Mixue Thailand | Fresh Ice Cream & Tea
 
-เว็บไซต์ตัวอย่างสำหรับธุรกิจบริการทำเว็บไซต์
-โปรเจคนี้ประกอบด้วย 4 หน้า ได้แก่ Home, About, Services และ Contact  
-รองรับการใช้งานแบบเรียบง่าย
+## Projecet description
 
----
+- นี่คือการจำลองหน้าเว็บไซต์ Mixue Thailand | Fresh Ice Cream & Tea
+- สร้างขึ้นเพื่อเรียนรู้เกี่ยวกับวิธีสร้างหน้าเว็บไซต์
+- เพื่อศึกษาเกี่ยวกับ HTML เบื้องต้น
+- ไม่มีการใช้ CSS และ JavaScript
+
+## File structure
+
+- **index.html** - หน้าหลักสำหรับเว็บไซต์
+- **about.html** - หน้าเกี่ยวกับ อธิบายเรื่องราว และเป้าหมายของบริษัท
+- **services.html** - หน้าบริการ บอกรายละเอียดเกี่ยวกับการบริการของเรา
+- **contact.html** - หน้าติดต่อ บอกสถานที่ตั้งบริษัท และใช้สำหรับพูดคุยกับเรา
+- **images** - ใช้สำหรับการนำภาพไปใช้งานในหน้าเว็บไซต์
+- **README.md** - เอกสารสำหรับอธิบายเว็บไซต์
+
+## All screenshots and links to each page
+
+1. [คลิกเพื่อดูหน้าหลัก /index.html](/index.html)
+
+[![คลิกเพื่อดูหน้าหลัก](Image/index.PNG)](/index.html)
+
+2. [คลิกเพื่อดูเกี่ยวกับ /about.html](/about.html)
+
+[![คลิกเพื่อดูเกี่ยวกับ](Image/about.PNG)](/about.html)
+
+3. [คลิกเพื่อดูบริการ /services.html](/services.html)
+
+[![คลิกเพื่อดูบริการ](Image/service.PNG)](/services.html)
+
+4. [คลิกเพื่อดูติดต่อ /contact.html](/contact.html)
+
+[![คลิกเพื่อดูติดต่อ](Image/contact.PNG)](/contact.html)
