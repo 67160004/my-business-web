@@ -509,3 +509,13 @@ body {
   text-align: center;
   margin: 3rem 0 1.5rem;
 }
+.card iframe {
+  border-radius: 8px;
+}
+
+.map-full iframe {
+  width: 100%;
+  height: 350px; /* ปรับได้ 300–450 */
+  border: 0;
+  display: block;
+}
