@@ -1,82 +1,142 @@
 <!DOCTYPE html>
 <html lang="th">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>เมนู & สาขา - Mixue</title>
-    <meta
-      name="description"
-      content="เมนูเด่นของ Mixue: ไอศกรีมโคน ชานม น้ำมะนาว และข้อมูลสาขา"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>เมนู & สาขา</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">หน้าแรก</a></li>
-          <li><a href="about.html">เกี่ยวกับ Mixue</a></li>
-          <li><a href="services.html">เมนู & สาขา</a></li>
-          <li><a href="contact.html">ติดต่อเรา</a></li>
-        </ul>
-      </nav>
+    <header id="header">
+      <div class="container header-wrap">
+        <img src="Image/logonew.png" alt="Mixue Logo" class="logo" />
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html">เกี่ยวกับ Mixue</a></li>
+            <li><a class="active" href="services.html">เมนู & สาขา</a></li>
+            <li><a href="contact.html">ติดต่อเรา</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main>
-      <h1>เมนูเด่นของ Mixue</h1>
+    <main class="section">
+      <div class="container">
+        <h2 class="section-title">เมนูเด่นของ Mixue</h2>
 
-      <section aria-labelledby="softserve">
-        <h2 id="softserve">Soft-serve Ice Cream (ไอศกรีมโคน)</h2>
-        <img src="Image/icecream.avif" alt="Mixue Logo" width="720px" />
-        <p>ไอศกรีมเนื้อเนียน เสิร์ฟโคนหรือถ้วย — ราคาย่อม</p>
-      </section>
+         <div class="menu-wrapper">
+        <div class="menu-grid">
+        <!-- 1 เมนู -->
+        <div class="menu-card">
+          <img src="Image/softcone.jpg" alt="Soft Serve Cone" />
+          <h4>Soft Serve Cone</h4>
+          <p>Classic vanilla ice cream</p>
+          <span class="price">฿15 – ฿20</span>
+        </div>
 
-      <section aria-labelledby="milktea">
-        <h2 id="milktea">Milk Tea & Signature Drinks</h2>
-        <img src="Image/milk.webp" alt="Mixue Logo" width="720px" />
-        <p>ชานมหลากหลายสูตร และเมนูเฉพาะในแต่ละสาขา</p>
-      </section>
+        <div class="menu-card">
+          <img src="Image/strawberry.jpg" alt="Strawberry Ice Cream" />
+          <h4>Strawberry Ice Cream</h4>
+          <p>Sweet & creamy strawberry</p>
+          <span class="price">฿15 – ฿20</span>
+        </div>
 
-      <section aria-labelledby="fruit">
-        <h2 id="fruit">Lemonade & Fruit Tea</h2>
-        <img src="Image/tea.webp" alt="Mixue Logo" width="720px" />
-        <p>เครื่องดื่มผลไม้สด เมนูยอดนิยม</p>
-      </section>
+        <div class="menu-card">
+          <img src="Image/vanila-ice-cream-mixue-287x300.jpg" alt="Vanilla Ice Cream" />
+          <h4>Vanilla Ice Cream</h4>
+          <p>Rich Vanilla Ice Cream</p>
+          <span class="price">฿15 – ฿20</span>
+        </div>
 
-      <h2>ตัวอย่างราคา (อ้างอิง)</h2>
-      <table border="1" summary="ตารางราคาตัวอย่าง">
-        <thead>
-          <tr>
-            <th>เมนู</th>
-            <th>ราคาโดยประมาณ</th>
-            <th>หมายเหตุ</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Soft-serve Cone</td>
-            <td>10–25 บาท (ขึ้นอยู่กับสาขา)</td>
-            <td>ราคาอาจแตกต่างในแต่ละประเทศ</td>
-          </tr>
-          <tr>
-            <td>Milk Tea</td>
-            <td>30–60 บาท</td>
-            <td>มีหลายไซส์และท็อปปิง</td>
-          </tr>
-          <tr>
-            <td>Fruit Tea / Lemonade</td>
-            <td>35–70 บาท</td>
-            <td>เมนูผลไม้สด</td>
-          </tr>
-        </tbody>
-      </table>
+        <div class="menu-card">
+          <img src="Image/Pear-Milk-Tea-1.jpg" alt="Milk Tea" />
+          <h4>Milk Tea</h4>
+          <p>Classic milk tea with boba</p>
+          <span class="price">฿30 – ฿50</span>
+        </div>
+        <div class="menu-card">
+          <img src="Image/Passion-fruit-Jasmine-Tea.jpg" alt="Fruit Tea" />
+          <h4>Fruit Tea</h4>
+          <p>Refreshing fruit-infused tea</p>
+          <span class="price">฿35 – ฿60</span>
+        </div>
+        <div class="menu-card">
+          <img src="Image/lemon.jpg" alt="Lemon Jasmine Tea" />
+          <h4>Lemon Jasmine Tea</h4>
+          <p>Jasmine Tea blended with refreshing natural lemon juice</p>
+          <span class="price">฿20 – ฿35</span>
+        </div>
 
-      <section aria-labelledby="locations">
-        <h2 id="locations">ข้อมูลสาขา / เครือข่าย</h2>
-        <p>
-          Mixue มีสาขาจำนวนมากในจีนและขยายไปยังหลายประเทศในเอเชีย
-          หากต้องการข้อมูลสาขาเฉพาะประเทศ ให้ติดต่อผ่านเว็บไซต์ทางการของแบรนด์
-        </p>
-      </section>
+        <div class="menu-card">
+          <img src="Image/Chocolate-Cookies-Smoothies-with-Ice-Cream-300x300.jpg" alt="Chocolate Cookies Smoothies with Ice Cream" />
+          <h4>Chocolate Cookies Smoothies with Ice Cream</h4>
+          <p>Chocolate and Oreo blended with Vanilla Ice Cream</p>
+          <span class="price">฿30 – ฿45</span>
+        </div>
+
+        <div class="menu-card">
+          <img src="Image/Early-Grey-Tea-with-2-Toppings.jpg" alt="Earl Grey Tea with 2 Toppings" />
+          <h4>Earl Grey Tea with 2 Toppings</h4>
+          <p>Earl Grey Tea with chewy boba and coconut jelly topping</p>
+          <span class="price">฿35 – ฿50</span>
+        </div>
+        
+        <!-- เพิ่มเมนูต่อได้เรื่อย ๆ -->
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section class="section">
+          <div class="container">
+            <h2 class="section-title">ตัวอย่างราคา (อ้างอิง)</h2>
+
+            <div class="price-table-wrapper">
+              <table class="price-table" summary="ตารางราคาตัวอย่าง">
+                <thead>
+                  <tr>
+                    <th>เมนู</th>
+                    <th>ราคาโดยประมาณ</th>
+                    <th>หมายเหตุ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>🍦 Soft-serve Cone</td>
+                    <td>10–25 บาท</td>
+                    <td>ราคาอาจแตกต่างในแต่ละประเทศ</td>
+                  </tr>
+                  <tr>
+                    <td>🧋 Milk Tea</td>
+                    <td>30–60 บาท</td>
+                    <td>มีหลายไซส์และท็อปปิง</td>
+                  </tr>
+                  <tr>
+                    <td>🍋 Fruit Tea / Lemonade</td>
+                    <td>35–70 บาท</td>
+                    <td>เมนูผลไม้สด</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <h2 class="section-title">ข้อมูลสาขา</h2>
+        <div class="card-group">
+          <div class="card">
+            <p>
+              Mixue มีสาขาจำนวนมากในจีนและหลายประเทศในเอเชีย
+              ราคาสินค้าอาจแตกต่างกันตามแต่ละสาขา
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <footer id="footer">
+      <p>© 2025 My Business Web</p>
+    </footer>
   </body>
 </html>
