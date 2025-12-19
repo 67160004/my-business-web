@@ -4,47 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mixue Thailand | Fresh Ice Cream & Tea</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <img src="Image/logo.webp" alt="Mixue Logo" width="720px" />
-      <nav>
-        <ul>
-          <li><a href="index.html">หน้าแรก</a></li>
-          <li><a href="about.html">เกี่ยวกับ Mixue</a></li>
-          <li><a href="services.html">เมนู & สาขา</a></li>
-          <li><a href="contact.html">ติดต่อเรา</a></li>
-        </ul>
-      </nav>
+    <header id="header">
+      <div class="container header-wrap">
+        <img src="Image/logonew.png" alt="Mixue Logo" class="logo" />
+        <nav>
+          <ul class="nav-menu">
+            <li><a class="active" href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html">เกี่ยวกับ Mixue</a></li>
+            <li><a href="services.html">เมนู & สาขา</a></li>
+            <li><a href="contact.html">ติดต่อเรา</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <!-- Hero Section -->
-    <section>
-      <h1>Welcome to Mixue Thailand</h1>
-      <p>ชานม ไอศกรีม และเครื่องดื่มราคาน่ารักสำหรับทุกคน</p>
-    </section>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Mixue Thailand</h1>
+          <p>ชานม ไอศกรีม และเครื่องดื่มราคาน่ารักสำหรับทุกคน</p>
+          <a href="services.html" class="btn">ดูเมนู</a>
+        </div>
+      </section>
 
-    <!-- Featured Services -->
-    <section>
-      <h2>บริการหลักของเรา</h2>
-      <div>
-        <h3>ไอศกรีมโคน</h3>
-        <p>สด ใหม่ เนียนนุ่ม ราคาย่อมเยา</p>
-      </div>
-      <div>
-        <h3>ชานมไข่มุก</h3>
-        <p>กลมกล่อม หอมชา ไข่มุกหนึบ</p>
-      </div>
-      <div>
-        <h3>ชาผลไม้</h3>
-        <p>สดชื่นด้วยผลไม้แท้</p>
-      </div>
-    </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">บริการหลักของเรา</h2>
 
-    <!-- Footer -->
-    <footer>
-      <p>© 2025 my busuness web</p>
+          <div class="card-group">
+            <div class="card">
+              <h3>ไอศกรีมโคน</h3>
+              <img src="Image/icec.png" alt="Mixue menu" class="menu" />
+              <p>สด ใหม่ เนียนนุ่ม ราคาย่อมเยา</p>
+            </div>
+
+            <div class="card">
+              <h3>ชานมไข่มุก</h3>
+              <img src="Image/nom.jfif" alt="Mixue menu" class="menu" />
+              <p>กลมกล่อม หอมชา ไข่มุกหนึบ</p>
+            </div>
+
+            <div class="card">
+              <h3>ชาผลไม้</h3>
+              <img src="Image/cha.jfif" alt="Mixue menu" class="menu" />
+              <p>สดชื่นด้วยผลไม้แท้</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>© 2025 My Business Web</p>
     </footer>
   </body>
 </html>
