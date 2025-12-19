@@ -82,3 +82,7 @@ a:hover {
   flex-direction: column;
   gap: 15px;
 }
+#footer {
+  padding: 2rem;
+  background: #222;
+}
