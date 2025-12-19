@@ -63,3 +63,12 @@ a:hover {
 .card:hover {
   transform: translateY(-4px);
 }
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services .card {
+  min-width: 300px;
+}
