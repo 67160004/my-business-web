@@ -1,71 +1,60 @@
 <!DOCTYPE html>
 <html lang="th">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>ติดต่อ Mixue</title>
-    <meta
-      name="description"
-      content="ข้อมูลติดต่อสำนักงานใหญ่ Mixue และช่องทางติดต่อทั่วไป"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ติดต่อเรา</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">หน้าแรก</a></li>
-          <li><a href="about.html">เกี่ยวกับ Mixue</a></li>
-          <li><a href="services.html">เมนู & สาขา</a></li>
-          <li><a href="contact.html">ติดต่อเรา</a></li>
-        </ul>
-      </nav>
+    <header id="header">
+      <div class="container header-wrap">
+        <img src="Image/logonew.png" alt="Mixue Logo" class="logo" />
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html">เกี่ยวกับ Mixue</a></li>
+            <li><a href="services.html">เมนู & สาขา</a></li>
+            <li><a class="active" href="contact.html">ติดต่อเรา</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main>
-      <h1>ติดต่อ Mixue</h1>
-      <section aria-labelledby="form">
-        <h2 id="form">สอบถามข้อมูลเพิ่มเติม</h2>
-        <!-- ฟอร์มตัวอย่าง (local form only) -->
-        <form action="#" method="post">
-          <label for="name">ชื่อ:</label><br />
-          <input type="text" id="name" name="name" required /><br /><br />
+    <main class="section">
+      <div class="container">
+        <h2 class="section-title">ติดต่อ Mixue</h2>
 
-          <label for="email">อีเมล:</label><br />
-          <input type="email" id="email" name="email" required /><br /><br />
+        <div class="card-group">
+          <div class="card">
+            <form>
+              <p>
+                <input type="text" placeholder="ชื่อ" required />
+              </p>
+              <p>
+                <input type="email" placeholder="อีเมล" required />
+              </p>
+              <p>
+                <textarea rows="5" placeholder="ข้อความ"></textarea>
+              </p>
+              <p>
+                <button class="btn" type="submit">ส่งข้อความ</button>
+              </p>
+            </form>
+          </div>
 
-          <label for="message">ข้อความ:</label><br />
-          <textarea id="message" name="message" rows="5" required></textarea
-          ><br /><br />
-
-          <button type="submit">ส่งข้อความ</button>
-        </form>
-      </section>
-
-      <section aria-labelledby="hq">
-        <h2 id="hq">สำนักงานใหญ่ (ข้อมูลอ้างอิง)</h2>
-        <p>Zhengzhou, Henan, China</p>
-        <p>
-          เว็บไซต์หลักของ Mixue (อ้างอิง):
-          <a href="https://mixuebingcheng.com" target="_blank" rel="noopener"
-            >mixuebingcheng.com</a
-          >
-        </p>
-      </section>
-
-      <section aria-labelledby="map">
-        <h2 id="map">แผนที่ (ตัวอย่างเมือง Zhengzhou)</h2>
-        <!-- หากเผยแพร่จริง ให้ใช้ iframe map ของสาขาจริง -->
-        <iframe
-          src="https://www.google.com/maps?q=Zhengzhou&output=embed"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        >
-        </iframe>
-      </section>
+          <div class="card">
+            <h3>📍 ข้อมูลติดต่อ</h3>
+            <p>🏢 สำนักงานใหญ่: Zhengzhou, China</p>
+            <p>🌐 mixuebingcheng.com</p>
+            <p>📞 โทร: +86 371-8656-8888</p>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <footer id="footer">
+      <p>© 2025 My Business Web</p>
+    </footer>
   </body>
 </html>
